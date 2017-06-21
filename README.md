@@ -38,6 +38,8 @@ In order to setup the Linux Ubuntu server on Amazon Lightsail:
 
 -ran the file install_database.py to seed the catalog app's catalog database.
 
+-disabled directory listing in apache to prevent public access to .git directory
+
 Third party resources
 
 -https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
@@ -49,3 +51,5 @@ Third party resources
 -https://serverfault.com/questions/125865/finding-out-what-user-apache-is-running-as
 
 -https://stackoverflow.com/questions/5912701/python-egg-cache-extraction-error-permission-denied-apache-not-seeing-sete
+
+-https://docs.oseems.com/general/application/apache/disable-directory-listing
